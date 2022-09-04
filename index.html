@@ -13,10 +13,37 @@
   gtag('config', 'G-QK29GWS06J');
 </script>
   <link rel="stylesheet" href="style.css">
+  <script>
+    var learn = ["Html","Css","JavaScript","Jqeury","Java","Jsp","Spring"]
+  </script>
   </head>
   <body>
 <div id="title">
     <h1 style="color:blue;font-size:400%;text-align:left">MY LOADMAP 2022</h1>
+<input type="button" name="" value="night" onclick="
+var target = document.querySelector('body')
+if(this.value === 'night'){
+  target.style.backgroundColor = 'black';
+  target.style.color = 'white';
+  this.value = 'day';
+  var link = document.querySelectorAll('a')
+  var i = 0;
+    while(i < link.length){
+      link[i].style.color = 'powderblue';
+      i = i + 1;
+    }
+} else {
+  target.style.backgroundColor = 'white';
+  target.style.color = 'black';
+  this.value = 'night';
+  var link = document.querySelectorAll('a')
+  var i = 0;
+    while(i < link.length){
+      link[i].style.color = 'blue';
+      i = i + 1;
+  }
+  }
+">
 </div>
 <div id="grid">
     <ul>
@@ -28,7 +55,16 @@
     </ul>
     <div id="grid2">
       <div>
-        <p id="gird4" style="font-size:150%;margin-top:70px">html css javascript jqeury java jsp/servlet spring</p>
+        <p id="gird4" style="font-size:150%;margin-top:70px">
+          <script>
+          var learn = ["Html"," Css"," JavaScript"," Jqeury"," Java"," Java"," Jsp"," Spring"]
+          var i = 0;
+            while(i < learn.length){
+              document.write(learn[i]);
+              i = i + 1;
+            }
+          </script>
+        </p>
         <p>목표는 1차적으로 <b style="color:red;font-size:150%;">CRUD 시스템 구축!!!</b></p>
       </div>
       <div id="grid5">
@@ -37,6 +73,17 @@
     </div>
 </div>
     <p><iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    <input type="button" name="" value="night" onclick="
+    if(this.value === 'night'){
+      document.querySelector('body').style.backgroundColor = 'black';
+      document.querySelector('body').style.color = 'white';
+      this.value = 'day';
+    } else {
+      document.querySelector('body').style.backgroundColor = 'white';
+      document.querySelector('body').style.color = 'black';
+      this.value = 'night';
+    }
+      ">
     <p><div id="disqus_thread"></div>
       <script>
     /**
